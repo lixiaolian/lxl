@@ -32,6 +32,9 @@ int main(int argc, const char * argv[])
     Student *stu=[[Student alloc]init];
     [stu setBlock:^(NSString *str)
     {
+        
+        
+        
         NSLog(@"我的学号是：%@",str);
     }];
     [stu sayNumber];
