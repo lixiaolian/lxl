@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Block_Test' target in the 'Block_Test' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
